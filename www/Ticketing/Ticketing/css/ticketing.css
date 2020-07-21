@@ -1,0 +1,395 @@
+
+.wrap{
+  padding: 40px calc( (100% - 870px)/2);
+  width:60%;
+  overflow: hidden;
+  margin: 0px auto;
+  min-width: 900px;
+  margin-left: 5px;
+}
+
+.wrap > div {
+  float: left;
+  height: 800px;
+}
+
+.title {
+    font-size: 15pt;
+    margin : 0;
+    height: 60px;
+    background-color: rgb(255, 255, 253);
+    text-align: left;
+    clear: both;
+    line-height: 60px;
+    border-bottom: rgb(202, 202, 202) 1px solid;
+    border-top: black 3px solid;
+    padding-left: 20px;
+}
+.title h3{
+    margin : 0;
+    font-weight: 400;
+    border-right: rgb(202, 202, 202) 1px solid;
+} 
+
+.date .title h3{
+  border-right: none;
+}
+
+.movieSec > .movie {
+    padding: 15px;
+    background: rgb(255, 255, 253);
+    width:310px;
+    height:720px;
+    overflow: scroll;
+    border-right: rgb(202, 202, 202) 1px solid;
+}
+
+.movieSec > .movie img {
+    margin: 0px 15px 0px 5px;
+    vertical-align: middle;
+    width:25px;
+}
+
+.movieSec > .movie div {
+    cursor: pointer;
+    margin-bottom: 4px;
+    border: none;
+    height: 50px;
+}
+
+.movieSec > .movie div:hover {
+    background-color: gray;
+    color: white;
+}
+
+.movieSec > .movie div p{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.theater > .city {
+    padding: 15px;
+    background: rgb(255, 255, 253);
+    width:175px;
+    height:720px;
+    overflow: scroll;
+    float: left;
+}
+
+.theater > .city div {
+    text-align: right;
+    background-color: whitesmoke;
+    cursor: pointer;
+    margin-bottom: 2px;
+    height: 40px;
+    padding-right: 10px;
+    line-height: 30px;
+}
+
+.theater > .city div p{
+    margin: 4px 4px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.theater > .office {
+    padding: 15px;
+    padding-left: 5px;
+    background: rgb(255, 255, 253);
+    width:170px;
+    height:720px;
+    overflow: scroll;
+    float: left;
+    border-right: rgb(202, 202, 202) 1px solid;
+}
+ 
+.theater > .office div {
+    cursor: pointer;
+    margin-bottom: 2px;
+    height: 40px;
+    line-height: 30px;
+}
+
+.theater > .office div p{
+    margin: 4px 4px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.date > #currentMonth {
+    background: rgb(255, 255, 253);
+    width:120px;
+    height:750px;
+    overflow: scroll;
+    display: inline-block;
+}
+
+.date > #currentMonth input {
+    display: block;
+}
+.date > #currentMonth > p {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #666;
+    font-size: 19pt;
+    font-family: Verdana;
+    font-weight: bold;
+    text-shadow: 0 0 black;
+}
+
+.date > #currentMonth div {
+    width: 60px;
+    text-align: center;
+    cursor: pointer;
+    margin: 10px auto;
+}
+
+.date > #currentMonth div p{
+    margin: 4px 4px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12pt;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.submit {
+    padding: 40px 0px;
+    background-color: #212121;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: bold;
+}
+
+.submit > div:first-child {
+    cursor: pointer;
+    color: white;
+    background-color: #555;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 40px;
+    border-radius: 10px;
+    border: white solid 2px;
+    padding: 15px;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.submit > div:nth-child(odd):not(:first-child) {
+    color: white;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 40px;
+    padding: 15px;
+}
+
+.submit > div:nth-child(even) {
+    color: white;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 40px;
+    padding: 15px;
+}
+
+.theater .city .selec, .movieSec > .movie .selec, .date > #currentMonth .selec {
+  background-color: gray;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+
+
+
+hr{
+  margin:0;
+}
+button{
+  background-color:#D5D5D5;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: 0;
+  border: 0;
+}
+
+
+
+.movie > button{
+  height: 55px;
+  background-color: #EDEDEF;
+}
+
+.theater_list{
+  position: relative;
+  width: 220px;
+  height: 500px;
+  background: #EDEDEF
+}
+.theater_list ul{
+  list-style:none;
+  margin: 0;
+  padding-left: 0;
+  height:500px;
+  width:101px;
+  border-right: 1px solid gray;
+}
+ ul button{
+  width:100px;
+  text-align: right;
+  height: 50px;
+}
+.office{
+  position: absolute;
+  top:0;
+  right:0;
+  width:118px;
+  height: 500px;
+  overflow-x: hidden;
+}
+.office button{
+  background-color:#EDEDEF;
+  width: 118px;
+  margin:0;
+  line-height: 40px;
+  height: 50px;
+  text-align: left;
+}
+.date hr{
+  margin-left: 25px;
+  width: 58px;
+}
+.currentMonth {
+  background-color:#EDEDEF;
+  margin: 0px 10px 0px 10px;
+  width: 120px;
+  height: 500px;
+  overflow-x: auto;
+  text-align: center;
+}
+.day, .day-red {
+    background-color: #D5D5D5;
+    width: 60px;
+    height: 50px;
+    font-weight:bold;
+    line-height: 40px;
+    cursor: pointer;
+    color: #454545;
+
+}
+.day-red {
+    color: #B70000;
+}
+
+.time_table{
+
+  background: #EDEDEF;
+  height: 500px;
+  width: 400px;
+  overflow-x: auto;
+}
+.time_table {
+  font-size: 12px;
+  font-weight: bold;
+}
+.time_table > .whole_table{
+  height:500px;
+}
+.one_table{
+  height:240px;
+  margin:0 25px 0 25px;
+  border-bottom:2px solid gray;
+}
+.one_table > .theater_location{
+  text-align: left;
+}
+.time_info{
+  height:180px;
+  width:340px;
+}
+.time_info li{
+  list-style:none;
+  float: left;
+  height: 50px;
+  width:110px;
+  padding-bottom: 10px;
+}
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #f5f5f5;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #f5f5f5;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #555;
+}

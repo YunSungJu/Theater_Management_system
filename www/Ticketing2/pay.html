@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>결제 | 예매</title>
+    <link rel="stylesheet" href="css/pay.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/choice_section.css">
+</head>
+    <body>
+    <header>
+        <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+    </header>
+    <nav>
+        <ul>
+            <li class="menu"><a href="index.html" onclick="menu();">HOME</a></li>
+            <li class="menu"><a href="movie.html">영화</a></li>
+            <li class="menu"><a href="ticketing.html">예매</a></li>
+            <li class="menu"><a href="login.html">로그인</a></li>
+            <li class="mypage"><a href="mypage.html">마이페이지</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <div class="wrap">
+            <div class="top">
+                결제
+            </div>
+            <div class = "data">
+                <img src="img/movie1.PNG" alt="" width="300px" height="500px">
+                <h3>터미네이터-다크페이트</h3><hr>
+                <p>지점명 : CGV안산</p>
+                <p>상영관 : 3관</p>
+                <p>상영시간 : 2019-12-04 11:40 ~ (107분)</p><hr>
+                <p>수량 : 일반 1 , 청소년 2</p><hr>
+                <p id="seatP">좌석 : A1</p><hr>
+                <p>가격 : 일반 8000 원, 청소년 0 원, <br>총 가격(할인제외) : 8000 원</p><hr>
+            </div>
+            <form action="complete.html" method="post">
+                결제수단<br>
+                <input type="radio" name="met" value="신용카드">
+                신용카드<br>
+                <input type="radio" name="met" value="휴대폰">
+                휴대폰결제<br>
+                <input type="radio" name="met" value="무통장">
+                무통장입금
+                               
+                <div id="discountDiv">
+                        <p>할인 : </p>
+                        <br>
+                    </div> 
+                    <button type="submit">결제</button>
+            </form>
+            <div>
+                
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div>
+            <div id="foot_img">
+                <img src="img/logo.png" width="120px">
+            </div>
+            <div id="foot_p">
+                <p>경기도 안산시 상록구 한양대학로 55</p>
+                <p>개발자 | 정은지,김재영,박예림,이재원,윤성주 |</p>
+                <p>&copy;10PLEX.All Rights Reserved</p>
+            </div>
+        </div>
+
+
+    </footer>
+
+
+
+
+
+
+</body>
+</html>

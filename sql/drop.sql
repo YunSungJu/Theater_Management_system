@@ -1,0 +1,21 @@
+DROP TABLE 메인코드;
+DROP TABLE 서브코드;
+
+DROP TABLE 지역;
+DROP TABLE 지점;
+DROP TABLE 상영관;
+DROP TABLE 좌석;
+DROP TABLE 영화;
+DROP TABLE 영화상영정보;
+
+DROP TABLE 예매;
+DROP TABLE 품목;
+DROP TABLE 회원;
+DROP TABLE 직원관리;
+DROP TABLE 근태관리;
+DROP TABLE floor업무관리;
+DROP TABLE 기술지원;
+DROP TABLE 물품주문;
+DROP TABLE 시설물;
+DROP TABLE 시설물관리;
+DROP TABLE 청결관리;

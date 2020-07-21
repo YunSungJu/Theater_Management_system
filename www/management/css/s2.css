@@ -1,0 +1,85 @@
+input[type="checkbox"]:checked ~ main {
+	left: 200px;
+  }
+
+main {
+	float: right;
+	transition: all 0.15s ease-in-out;
+	color: rgb(70, 69, 69);
+	height: calc(100% - 60px);
+	overflow: scroll;
+}
+
+section{
+	/* overflow: hidden; */
+	padding: 20px;
+}
+
+#container {
+	border: 1px solid rgba(194, 194, 194, 0.568);
+	box-shadow: 0px 0px 5px rgba(174, 176, 167, 0.753);
+	padding: 20px 20px 20px 20px;
+	margin-top: 40px;
+}
+
+main h2 {
+	font-weight: 600; 
+}
+
+main table {
+	width: 100%;
+	border-collapse: collapse; 
+	text-align: center;
+	background: #fffdfd;
+	border: 1.5px solid rgba(194, 194, 194, 0.568);
+	font-size: 15px;
+}
+
+main table th {
+	border-bottom: 2px solid #E6E6E6;
+	border-right: 1.5px solid #F2F2F2;
+	padding: 10px 0px 10px 10px;
+}
+
+main table td {
+	height: 30px;
+	border-bottom: 1.5px solid #F2F2F2;
+	border-right: 1.5px solid #F2F2F2;
+	padding: 10px 10px 10px 10px;	
+}
+
+main table tr:nth-child(even) td {
+	background: #f6f6f6;
+}
+
+main table tr:hover td {
+	background: #f2f2f2;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#f0f0f0));
+	background: -moz-linear-gradient(top,  #f2f2f2,  #f0f0f0);	
+}
+
+/* main table tr:first-child:hover td {
+	background: #fffdfd;
+} */
+
+main input, select {
+	width: 95%;
+	height: 110%;
+	font-size: 15px;
+}
+
+main input:hover, select:hover {
+	border: 2px solid rgb(170, 170, 170);
+}
+
+main select {
+	background: white;
+}
+
+main .selec_td {
+	max-width: 70px;
+}
+
+main .selec_td2 {
+	max-width: 60px;
+}

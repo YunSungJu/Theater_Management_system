@@ -1,0 +1,91 @@
+section {
+    width: 1000px !important;
+    
+    height: 650px;
+}
+
+.top {
+    font-size:35px;
+    margin : 0;
+    height: 60px;
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    clear: both;
+    padding-top: 20px;
+    font-weight: 400;
+}
+
+
+section:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.wrap{
+    font-weight: bold;
+    position: relative;
+    background-color: ivory;
+    padding: 0px 0px 10px 0px;
+}
+
+.wrap:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.payment {
+    padding: 10px;
+}
+
+.data img {
+    float: left;
+}
+
+.data > h2 {
+    margin-top: 20px ;
+    display: inline-block;
+    
+}
+
+.data > p {
+    font-size: 12px;
+}
+
+form {
+    font-size: 12px;
+}
+
+form button {
+    margin: 30px 90px 0px 0px;
+    float: right;
+}
+
+#discountDiv > p {
+    font-size: 12px;
+}
+
+button {
+    height: 40px;
+    width: 70px;
+    background-color:black;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border: white 2px solid;
+    color: white;
+}
+
+button:hover {
+    height: 40px;
+    width: 70px;
+    background-color:white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border: black 2px solid;
+    color: black;
+}
+

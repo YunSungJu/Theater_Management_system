@@ -1,0 +1,14 @@
+article #arrive, #leave {
+    position: fixed;
+    z-index: 9999;
+    top: 20%;
+    left: 20%;
+}
+
+#arrive_btn:hover #arrive {
+    display: block;
+    position: fixed;
+    z-index: 9999;
+    top: 20%;
+    left: 20%;
+}
